@@ -6,19 +6,20 @@
                 <div class="col-span-6 px-4 text-center sm:mb-6 lg:text-left lg:mb-0">
                     <h1
                         class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white">
-                        TailBliss</h1>
+                        ZHANGJIANG ASSOCIATION
+                    </h1>
                     <h2 class="pb-2 text-3xl font-light text-gray-800 dark:text-gray-300 md:text-4xl">
-                        Super Fast, and Flexible
+                        FOR COMPILER
                     </h2>
-                    <a href="https://github.com/nusserstudios/tailbliss"
+                    <a href="https://github.com/zhangjiang-compiler"
                        class="block py-4 mx-auto space-x-4 sm:inline-flex md:inline-flex sm:text-center sm:block">
                         <span
                               class="rounded bg-gray-50 px-2.5 py-1 text-sm font-bold text-gray-900 block max-w-fit mx-auto md:min-w-fit mb-2">
-                            What's new
+                            GitHub
                         </span>
                         <span
                               class="inline-flex items-center mb-2 space-x-1 text-sm font-medium text-gray-800 dark:text-white md:min-w-fit">
-                            <span>Just shipped version 0.1.0</span>
+                            <span>Projects and News</span>
                             <!-- Heroicon name: mini/chevron-right -->
                             <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                                  fill="currentColor" aria-hidden="true">
@@ -30,18 +31,10 @@
                     </a>
                     <p
                        class="max-w-xl mx-auto mb-6 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
-                        A Hugo theme built with love, using TailwindCSS 3, Apline.JS, and Hugo
-                        Pipes. Images are optimized for use with Hugo Pipes for WebP format.</p>
+                        An online and offline society focusing on compiler technology located in Zhangjiang, Shanghai.</p>
                 </div>
                 <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/tailbliss-rocket-indigo.png" }}
-
-                    {{ $thumb := ($hero.Fill "400x400 webp q90") }}
-                    {{ $large := ($hero.Fill "576x576 webp q90") }}
-
-                    <img srcset="
-                        {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
-                        {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}"
+                    <img src="/images/banner.jpg"
                          width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xl mx-auto rounded-lg" />
                 </div>
             </div>

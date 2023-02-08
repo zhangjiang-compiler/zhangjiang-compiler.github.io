@@ -1,5 +1,5 @@
-baseURL = "https://tailbliss.netlify.app/"
-title = "TailBliss"
+baseURL = "https://zhangjiang-compiler.github.io/"
+title = "Zhangjiang Association for Compiler"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
@@ -18,9 +18,9 @@ authorimage = "../assets/images/global/author.webp"
 github = "https://github.com/nusserstudios"
 facebook = "https://facebook.com/nusserstudios"
 og_image = "/images/tailbliss-cover.png"
-sitename = "TailBliss"
+sitename = "Zhangjiang Association for Compiler"
 twitter = "@nusserstudios"
-description = "TailBliss is Hugo Starter"
+description = "Index"
 
 [markup]
 [markup.goldmark]
